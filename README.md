@@ -8,7 +8,7 @@ If you think they are similar – you’re right. They are very similar. In fact
 In this video tutorial, I try to explain with the help of very basic examples when to use Factory , Service and Provider. This will definitely make you AngularJS Interview Ready. :)
 
 YouTube VLOG Link : https://youtu.be/6EYAiiwidOo
-Blog :
+Blog : http://goo.gl/xv5wJT
 FB Page :http://goo.gl/n8HGMw
 
 Happy Learning !!
