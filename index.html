@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Tech Geek KD- Angular Service v/s Factory v/s Provider</title>
+        <title>Tech Geek KD- Angular Copy v/s Extend</title>
         <script src="angular_ver_1.4.7.js"></script>
         <script src="app.js"></script>
     </head>
     <body ng-app="kdTutorial">
-        <div ng-controller="kdController">
-          Provider :: <b>{{kdProvider}}</b>
+        <div ng-controller="CopyController" style="padding:10px">
+            <button ng-click='runCopy()'>Test angular.copy</button>
         </div>
-         <div ng-controller="kdController2">
-          Provider2 :: <b>{{kdProvider2}}</b>
+         <div ng-controller="ExtendController" >
+             <div style="padding:10px"><button ng-click='runExtendSimple()'>Test angular.extend Simple</button></div>
+             <div style="padding:10px"><button ng-click='runExtendComplex()'>Test angular.extend Complex</button></div>
         </div>
+         <div ng-controller="MergeController" style="padding:10px">
+            <button ng-click='runMerge()'>Test angular.merge</button>
+        </div>        
     </body>
 </html> 
